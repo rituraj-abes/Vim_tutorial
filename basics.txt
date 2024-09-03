@@ -1,0 +1,76 @@
+neovim is vim with extra benefits
+
+Vim is a terminal based text editor. Similar to VS code.
+
+ctrl + c for copy , use yy
+
+ctrl + x to delete the entire line. OR Select the hole line and press backspace key.
+Use dd instead.
+
+ctrl + v to paste , use p
+
+ctrl + z to undo , use z
+
+Three mode in Vim
+Normal mode  : esc
+Visual mode  : v
+Insert mode  : i
+
+===============================================================
+
+In normal mode we can execute commands
+Exit vim :q
+: means to do something with the file
+:q! means exit without saving the file
+:wq means first write (save) the file then exit
+:q just to close the file
+
+:line_number to jump to a certain line 
+Example :15 
+
+{ to go up to a empty line / space
+} to go down to a empty line / space 
+
+G to go to the bottom of he file
+gg to go to the top of the file
+
+q stands for to quit the file
+w means to write in the file
+
+u to undo
+ctrl + r to redo
+
+$ to go to the end of the line
+0 to go the beginning of the line
+
+. is used to perform the last command which will be saved in the period and can be executed once more
+
+==================================================================================================================
+
+In visual mode 
+we copy/paste the code
+to select something
+h to go left
+j to go down
+k to go up
+l to go right
+
+dd is used to cut the enitre line
+p to paste the text
+10p to copy a text 10 times
+yy to yank (copy) text in vim buffer
+
+=========================================================================
+
+In insert mode
+to write the code
+ 
+==========================================================================
+
+csv comma seperated values
+tsv tab seperated values
+lsp language serever protocol
+
+ctrl + w to close all tabs in chrome 
+--------------------------------------------------------------------------
+supermaven ai for coding
